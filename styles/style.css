@@ -43,3 +43,22 @@ button:hover{
     border: none;
 }
 
+@media screen and (max-width:720px) {
+    .calculator{
+        grid-template-columns: repeat(4,70px);
+        grid-template-rows: repeat(6,70px);
+    }
+    button{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .calculator{
+        grid-template-columns: repeat(4,60px);
+        grid-template-rows: repeat(6,60px);
+    }
+    button{
+        font-size: 1.5rem;
+    }
+}
